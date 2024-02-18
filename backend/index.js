@@ -16,7 +16,7 @@ connectDB()
 
 app.use(express.json());
 
-
+// User Route for register and login user
 app.use('/api/user', UserRoutes);
 
 
