@@ -4,6 +4,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from './components/Navbar/Navbar'
 import Home from './components/Navbar/Home';
+import Services from './components/Navbar/Services';
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
     <div className='overflow-x-hidden'>
       <Navbar />
       <Home />
+      <Services />
     </div>
   )
 }
