@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from './components/Navbar/Navbar'
+import Home from './components/Navbar/Home';
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
   return (
     <div className='overflow-x-hidden'>
       <Navbar />
+      <Home />
     </div>
   )
 }

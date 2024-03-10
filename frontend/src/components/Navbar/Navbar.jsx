@@ -20,7 +20,7 @@ const Navbar = () => {
             <ul className='hidden sm:flex items-end gap-6'>
               {menus.map((menu, index) => (
                 <li key={index}>
-                  <a href={menu.link} className='inline-block text-xl py-4 gap-4'>
+                  <a href={menu.link} className='inline-block text-xl py-4 px-4 gap-4 text-white/70 hover:text-white duration-200'>
                     {menu.name}
                   </a>
                 </li>
