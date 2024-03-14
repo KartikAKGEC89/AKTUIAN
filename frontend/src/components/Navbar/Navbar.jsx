@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className='bg-gradient-to-r from-secondary to-secondary/90 text-white'>
       <div className="container py-2">
         <div className="flex justify-between">
-          <div className='font-bold text-2xl sm:text-3xl flex justify-center item-center gap-2 font-serif'>Our Agency</div>
+          <div className='font-bold text-2xl sm:text-3xl flex justify-center item-center gap-2 font-serif'>Code with CHAI</div>
           <div className='flex justify-between items-center gap-4'>
             <ul className='hidden sm:flex items-end gap-6'>
               {menus.map((menu, index) => (

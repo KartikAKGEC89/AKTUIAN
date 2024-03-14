@@ -28,6 +28,7 @@ const projects = [
 const Services = () => {
   
   return (
+    <>
     <div>
       <div className='container'>
         <div className='text-center'>
@@ -38,19 +39,23 @@ const Services = () => {
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 m-4 place-content-center gap-4'>
          {
             projects.map((project, item) => (
-            <div key={item}>
-              <div className="bg-white border-solid hover:scale-105 shadow border-r-2 px-4 py-4">
+              <div
+                data-aos="fade-out"
+                data-aos-delay={project.aosdelay}
+                key={item}>
+              <div className="bg-white border-solid hover:scale-105 shadow px-4 py-4 border-r-2 rounded">
                   <img src={project.img} alt='' className="w-100 h-100 rounded-lg" />
                   <h4 className='text-4xl font-sans text-center'>{project.data}</h4>
                   <p className='m-2'>{project.info}</p>
-                  <a href="https://ka-solutions.vercel.app/" className='bg-primary px-2 py-2 rounded-full m-2 text-white font-semibold'>LIVE VIEW</a>
+                  <a href="https://ka-solutions.vercel.app/" className='bg-primary px-2 py-2 rounded-full m-2 text-white font-semibold hover:bg-black'>LIVE VIEW</a>
               </div>
             </div>
           ))
          }
         </div>
       </div>
-    </div>
+      </div>
+      </>
   )
 }
 
