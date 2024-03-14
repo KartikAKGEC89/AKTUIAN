@@ -6,22 +6,23 @@ const projects = [
       id:1,
       img: project1,
       data: "E-Commerce Platform",
-      info:"Build using MERN Stack. It is E-Commerce website for B2C and B2B support."
+      info:"Build using MERN Stack. It is E-Commerce website for B2C and B2B support.",
+      aosdelay:"400"
       
   },
   {
       id:2,
       img: project1,
       data: "E-Commerce Platform",
-      info:"Build using MERN Stack. It is E-Commerce website for B2C and B2B support."
-      
+      info:"Build using MERN Stack. It is E-Commerce website for B2C and B2B support.",
+      aosdelay:"600"      
   },
   {
       id:3,
       img: project1,
       data: "E-Commerce Platform",
-      info:"Build using MERN Stack. It is E-Commerce website for B2C and B2B support."
-      
+      info:"Build using MERN Stack. It is E-Commerce website for B2C and B2B support.",
+      aosdelay:"800"      
   },
 ]
   
@@ -29,6 +30,7 @@ const Services = () => {
   
   return (
     <>
+      <span id='services'></span>
     <div>
       <div className='container'>
         <div className='text-center'>
