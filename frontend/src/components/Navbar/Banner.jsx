@@ -1,6 +1,7 @@
 import React from 'react'
 import Bannerpic from '../../assets/coffeetexture.jpg'
 import BannerPic2 from '../../assets/coffee-white.png'
+import Goku from '../../assets/goku-cosmic-evolution.jpg'
 
 const bgImage = {
   backgroundImage: `url(${Bannerpic})`,
@@ -50,7 +51,7 @@ const Banner = () => {
         <h1 className="text-4xl m-4 text-black font-semibold text-center"> Our Team Members </h1>
         <div className='flex'>
       <div className="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
-        <img className="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="" alt="Face" />
+        <img className="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src={Goku} alt="Face" />
         <div className="text-center space-y-2 sm:text-left">
           <div className="space-y-0.5">
             <p className="text-lg text-black font-semibold">
